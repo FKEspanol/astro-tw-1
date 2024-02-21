@@ -1,14 +1,14 @@
 ---
 import Layout from "../layouts/layout.astro"
-import Header from "../components/header.astro"
 import HeroContent from "../components/heroContent.astro"
+import Posts from "../components/posts.astro"
+
 
 ---
 
 <Layout>
-	<Header />
 	<div class=`bg-[url('/img/bg-index.jpg')] hero-main-div`>
 		<HeroContent hero_heading="My Blog" hero_sub_heading="A Blog Theme by Karlo Espanol" />
 	</div>
-	
+	<Posts />
 </Layout>

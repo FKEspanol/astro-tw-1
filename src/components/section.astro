@@ -1,0 +1,9 @@
+---
+const { className } = Astro.props;
+---
+
+<section class={`py-8 ${className}`}>
+    <div class="my-container">
+        <slot />
+    </div>
+</section>

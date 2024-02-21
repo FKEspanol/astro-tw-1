@@ -1,0 +1,31 @@
+---
+import Section from "../components/section.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../utils.ts";
+import { HOMEPAGE_ARTICLE_LIMIT } from "../constants";
+
+
+const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog')).sort((a,b) => b.data.pubdate.valueOf() - a.data.pubdate.valueOf());
+---
+
+
+<Section>
+    <div class="cust-container">
+        <div class="w-2/3 mx-auto">
+            {
+                allBlogArticles.slice(0, HOMEPAGE_ARTICLE_LIMIT).map(article => ( 
+                    <div class="mb-8">
+                        <a href={`/posts/${article.slug}`}>
+                            <h2 class="text-4xl font-bold leading-[1.2]">{article.data.heading}</h2>
+                            <h3 class="text-2xl">{article.data.sub_heading}</h3>    
+                        </a>
+                        <p class="text-md text-slate-700 mb-5">Posted by: {article.data.author} on {formatDate(article.data.pubdate)}</p>
+                        <hr />
+                    </div>
+                ))
+            }
+        </div>
+
+    </div>
+</Section>
