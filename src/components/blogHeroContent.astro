@@ -1,12 +1,14 @@
 ---
 import { formatDate } from "../utils";
-const {heading, sub_heading, author, pubdate } = Astro.props;
+const {heading, sub_heading, author, pubdate, bgImg } = Astro.props;
 ---
 
-<div class="cust-container relative z-[2]">
-    <div class="text-center text-white">
-        <h1 class="text-5xl font-bold mb-3">{heading}</h1>
-        <p class="text-3xl mb-5">{sub_heading}</p>
-        <p class="text-md mb-5">Posted by: {author} on {formatDate(pubdate)}</p>
+<div class=`bg-[url('/img/bg-index.jpg')] hero-main-div`>
+    <div class="cust-container relative z-[2]">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-3">{heading}</h1>
+            <p class="text-3xl mb-5">{sub_heading}</p>
+            <p class="text-md mb-5">Posted by: {author} on {formatDate(pubdate)}</p>
+        </div>
     </div>
 </div>

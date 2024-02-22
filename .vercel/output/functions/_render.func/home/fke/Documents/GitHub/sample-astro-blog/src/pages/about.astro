@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/layout.astro"
+import HeroContent from "../components/heroContent.astro"
+import Section from "../components/section.astro"
+
+---
+
+<Layout>
+	<div class=`bg-[url('/img/bg-about.jpg')] hero-main-div`>
+		<HeroContent hero_heading="About Me" hero_sub_heading="This is what I do." />
+	</div>
+	<Section className="my-10">
+		<div class="cust-container">
+			<div class="w-4/6 mx-auto">
+				<p class="text-xl font-sans">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!
+				</p>
+				<br>
+				<p class="text-xl font-sans">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.
+				</p>
+				<br>
+				<p class="text-xl font-sans">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!	
+				</p>
+			</div>
+		</div>
+	</Section>
+</Layout>

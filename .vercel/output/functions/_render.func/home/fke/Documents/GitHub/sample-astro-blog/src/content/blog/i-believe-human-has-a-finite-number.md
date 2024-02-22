@@ -1,10 +1,10 @@
 ---
-heading: "Dinosaurs are extinct today"
-sub_heading: "because they lacked opposable thumbs and the brainpower to build a space program."
-author: "John Doe"
-pubdate: 2024-02-15
-img: "/img/posts/01.jpg"
-slug: "Dinosaurs-are-extinct-today"
+heading: "I believe every human has a finite number of heartbeats."
+sub_heading: "I don't intend to waste any of mine."
+author: "Karl Kent"
+pubdate: 2024-02-09
+img: "03.jpg"
+slug: "I-believe-every-human-has-a-finite-number"
 ---
 
 Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.

@@ -1,12 +1,14 @@
 ---
 import Section from "../components/section.astro";
-import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../utils.ts";
 import { HOMEPAGE_ARTICLE_LIMIT } from "../constants";
 
+const { allBlogArticles } = Astro.props;
 
-const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog')).sort((a,b) => b.data.pubdate.valueOf() - a.data.pubdate.valueOf());
+interface Props {
+    allBlogArticles: CollectionEntry<'blog'>[]
+}
 ---
 
 
@@ -26,6 +28,5 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
                 ))
             }
         </div>
-
     </div>
 </Section>

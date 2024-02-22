@@ -1,10 +1,10 @@
 ---
-heading: "Dinosaurs are extinct today"
-sub_heading: "because they lacked opposable thumbs and the brainpower to build a space program."
-author: "John Doe"
-pubdate: 2024-02-15
-img: "/img/posts/01.jpg"
-slug: "Dinosaurs-are-extinct-today"
+heading: "Failure is not an option"
+sub_heading: "Many say exploration is part of our destiny, but it’s actually our duty to future generations."
+author: "Kelly Smith"
+pubdate: 2024-02-18
+img: "02.jpg"
+slug: "Failure-is-not-an-option"
 ---
 
 Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
