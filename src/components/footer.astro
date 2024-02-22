@@ -1,32 +1,12 @@
 ---
 import Section from "../components/section.astro"
-import { Icon } from "astro-icon/components"
+
 ---
 
 <Section className="bg-slate-800">
     <div class="cust-container py-10">
         <div class="flex justify-center items-center">
             <div class="text-center">
-                <div class="flex justify-evenly items-center mb-4">
-                    {
-                        [
-                            "mdi:facebook",
-                            "mdi:twitter",
-                            "mdi:instagram",
-                            "mdi:linkedin",
-                        ].map((icon) => {
-                            return (
-                                <a
-                                    href="#"
-                                    class="border-spacing-1 rounded mr-2 w-9 h-9 text-white bg-white bg-opacity-10 flex justify-center items-center"
-                                >
-                                    <Icon name={icon} class="text-3xl" />
-                                </a>
-                            );
-                        })
-                    }
-                   
-                </div>
                 <p class="text-white text-sm md:text-base">
                     Designed by <a href="#" class="text-primary">Francis &copy; Copyright</a>
                 </p>
