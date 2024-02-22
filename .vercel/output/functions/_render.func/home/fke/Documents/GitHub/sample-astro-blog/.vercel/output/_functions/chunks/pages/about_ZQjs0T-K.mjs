@@ -1,7 +1,7 @@
 /* empty css                          */
-import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, g as renderComponent, e as addAttribute } from '../astro_Dp4IjtIH.mjs';
+import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, g as renderComponent, e as addAttribute } from '../astro_CRSIYrCs.mjs';
 import 'kleur/colors';
-import { $ as $$Section, a as $$Layout } from './__DzIJWGHG.mjs';
+import { $ as $$Section, a as $$Layout } from './__CfuxT51H.mjs';
 import 'clsx';
 
 const $$Astro$1 = createAstro();

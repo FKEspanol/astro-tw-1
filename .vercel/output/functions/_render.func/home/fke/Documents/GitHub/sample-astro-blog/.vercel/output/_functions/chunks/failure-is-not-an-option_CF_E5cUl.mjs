@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./i-believe-human-has-a-finite-number_DSlW_TVQ.mjs');
+						return import('./failure-is-not-an-option_Chc5CPbz.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

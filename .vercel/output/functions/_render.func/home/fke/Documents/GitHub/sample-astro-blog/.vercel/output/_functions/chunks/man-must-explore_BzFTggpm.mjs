@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./failure-is-not-an-option_DDasyrFv.mjs');
+						return import('./man-must-explore_BgIsCAzI.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

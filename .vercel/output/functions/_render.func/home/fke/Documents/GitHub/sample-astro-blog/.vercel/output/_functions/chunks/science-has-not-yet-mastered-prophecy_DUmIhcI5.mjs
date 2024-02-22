@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./the-dreams-of-yesterday-are-the-hopes-of-tommorrow_DWQm0vvM.mjs');
+						return import('./science-has-not-yet-mastered-prophecy_D6x8cG-u.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

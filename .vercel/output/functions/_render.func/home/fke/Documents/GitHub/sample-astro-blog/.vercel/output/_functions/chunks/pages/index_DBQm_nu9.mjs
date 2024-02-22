@@ -1,8 +1,8 @@
 /* empty css                          */
-import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead, e as addAttribute } from '../astro_Dp4IjtIH.mjs';
+import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead, e as addAttribute } from '../astro_CRSIYrCs.mjs';
 import 'kleur/colors';
-import { H as HOMEPAGE_ARTICLE_LIMIT, f as formatDate, $ as $$Section, g as getCollection, A as ARTICLES_PER_PAGE, a as $$Layout } from './__DzIJWGHG.mjs';
-import { $ as $$HeroContent } from './about_CsJndSKN.mjs';
+import { H as HOMEPAGE_ARTICLE_LIMIT, f as formatDate, $ as $$Section, g as getCollection, A as ARTICLES_PER_PAGE, a as $$Layout } from './__CfuxT51H.mjs';
+import { $ as $$HeroContent } from './about_ZQjs0T-K.mjs';
 import 'clsx';
 
 const $$Astro$3 = createAstro();
@@ -17,7 +17,7 @@ const $$Astro$2 = createAstro();
 const $$Pagination = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Pagination;
-  const { currentPage, totalPages, disablePrevious, disableNext } = Astro2.props;
+  const { currentPage, disablePrevious, disableNext } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="cust-container mb-5"> <div class="w-2/3 mx-auto"> <div class="flex justify-between"> <a${addAttribute(`/posts?page=${currentPage - 1}`, "href")}${addAttribute(`${disablePrevious ? "inline-block bg-gray-100 px-3 py-2 text-gray-400 rounded-lg pointer-events-none" : ""} px-7 py-2 text-white bg-slate-800 rounded-md`, "class")}>Prev</a> <a${addAttribute(`/posts?page=${currentPage + 1}`, "href")}${addAttribute(`${disableNext ? "inline-block bg-gray-100 px-3 py-2 text-gray-400 rounded-lg pointer-events-none" : ""} px-7 py-2 text-white bg-slate-800 rounded-md`, "class")}>Next</a> </div> </div> </div>`;
 }, "/home/fke/Documents/GitHub/sample-astro-blog/src/components/pagination.astro", void 0);
 

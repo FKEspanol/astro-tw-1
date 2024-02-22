@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./dinosaurs-are-extinct-today_DAxQugIl.mjs');
+						return import('./i-believe-human-has-a-finite-number_CSYYAvsj.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

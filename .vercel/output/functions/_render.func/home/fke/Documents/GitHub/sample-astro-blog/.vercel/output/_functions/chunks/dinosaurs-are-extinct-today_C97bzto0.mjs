@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./science-has-not-yet-mastered-prophecy_BRToQVpj.mjs');
+						return import('./dinosaurs-are-extinct-today_BEGIdRh0.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];

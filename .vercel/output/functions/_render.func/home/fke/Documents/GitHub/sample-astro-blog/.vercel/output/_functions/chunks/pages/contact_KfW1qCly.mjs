@@ -1,8 +1,8 @@
 /* empty css                          */
-import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead, e as addAttribute } from '../astro_Dp4IjtIH.mjs';
+import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead, e as addAttribute } from '../astro_CRSIYrCs.mjs';
 import 'kleur/colors';
-import { a as $$Layout } from './__DzIJWGHG.mjs';
-import { $ as $$HeroContent } from './about_CsJndSKN.mjs';
+import { a as $$Layout } from './__CfuxT51H.mjs';
+import { $ as $$HeroContent } from './about_ZQjs0T-K.mjs';
 
 const $$Astro = createAstro();
 const $$Contact = createComponent(async ($$result, $$props, $$slots) => {

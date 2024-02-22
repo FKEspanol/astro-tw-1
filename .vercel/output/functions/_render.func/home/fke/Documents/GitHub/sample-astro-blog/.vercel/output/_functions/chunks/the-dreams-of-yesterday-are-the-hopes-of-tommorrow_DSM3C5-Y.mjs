@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./man-must-explore_CWX8Y6Mu.mjs');
+						return import('./the-dreams-of-yesterday-are-the-hopes-of-tommorrow_waN3JzAj.mjs');
 					}
 					const collectedLinks = [];
 					const collectedStyles = [];
